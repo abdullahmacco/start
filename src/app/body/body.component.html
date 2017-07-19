@@ -1,0 +1,28 @@
+<div>
+ <div> <p style= " text-align:center">Question: <span *ngIf="questionNumber==1"> You would run a salon</span> </p></div>
+  <div> <img src="salon.jpg" class="img-rounded" alt="Cinque Terre" width="1204" height="636" ></div>
+   <div class="navbar-nav collapse navbar-collapse justify-content-end" id="navbarNav" > 
+ 
+<p style="text-align:center">
+<input type="button" class="btn btn-lg btn-danger"  value="Disagree">
+<input type="button" class="btn btn-lg btn-warning"  value="Slightly Disagree">
+<input type="button" class="btn btn-lg btn-secondary"  value="Neutral">
+<input type="button" class="btn btn-lg btn-info"  value="Slightly  Agree">
+<input type="button" class="btn btn-lg btn-success"  value="Agree">
+</p> 
+<p style="text-align: center">
+<input type="button" (click)="clicked()" class="btn btn-lg btn-primary"  style="width:20%;text-align: center" value="Next">
+<p>  
+</div>
+</div>
+ 
+
+<script>
+
+// Without JQuery
+var slider = new Slider("#ex11", {
+	step: 20000,
+	min: 0,
+	max: 200000
+});
+  </script>
